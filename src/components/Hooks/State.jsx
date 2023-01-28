@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import Effact from './Effact'
 
 const State = () => {
 
@@ -20,7 +19,6 @@ const State = () => {
                 <h1>Your input {name}</h1>
 
             </div>
-            <Effact />
         </>
     )
 }

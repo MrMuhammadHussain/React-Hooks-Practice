@@ -1,22 +1,26 @@
-import axios from "axios"
-import { useState, useEffact } from "react"
+// import {useState,useEffect} from "react"
+// import axios from "axios"
+
+// const Effact = () => {
+
+//     const [coins, setCoins] = useState([])
 
 
+//     useEffect(() => {
+//         const Alldata = async () => {
+//             const { data } = await axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=pkr&per_page=20")
+//             console.log(data);
+//             setCoins(data)
+            
+//         }
 
-const Effact = () => {
-    useEffact(() => {
-        const Alldata = async () => {
-            const { data } = await axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=pkr&per_page=100")
-        }
 
+//         Alldata()
 
-        Alldata()
+//     }, [])
+//     return (
+//         <div>{coins}</div>
+//     )
+// }
 
-    }, [])
-
-    return (
-        <div>Effact</div>
-    )
-}
-
-export default Effact
+// export default Effact

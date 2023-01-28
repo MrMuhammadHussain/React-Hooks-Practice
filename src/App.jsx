@@ -4,6 +4,8 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Prodect from "./components/Prodect"
+import "./App.css"
+
 
 
 
@@ -16,10 +18,7 @@ const App = () => {
         <Route  path="/about" element={ <About    />} />
         <Route  path="/contact" element={ <Contact  />} />
         <Route path="*" element={<div><h1> Page Not Found 404 </h1></div>} />
-        <Route path="/prodect/:id"element={<Prodect />} />
-
-        
-      
+        <Route path="/prodect/:id"element={<Prodect />} />     
       </Routes>
     </Router>
     

@@ -11,10 +11,18 @@
 // export default Prodect
 
 
-function Prodect({ value }) {
+const Coin = ({ name , symbol , imge , price}) => {
   return (
-    <div>{value}</div>
+    <div className="coin">
+      <img src={imge} alt={name} />
+      <h1>{symbol}</h1>
+      <p>{name}</p>
+      <h4>Rs:{price}</h4>
+
+
+
+    </div>
   )
 }
 
-export default Prodect
+export default Coin
